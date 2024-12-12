@@ -1,10 +1,6 @@
 # Business Site
 
-Replace this readme with your own information about the project. You can include things like:
-
-- Brief description of the assignment
-- How you approached the task, what tools and techniques you used, and how you planned it
-- If you had more time, what would be next?
-
-## View it live
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+The assignment was to build a buisness site with a header with responsive image and a signup form. 
+I approached the task by getting inspiration from the sample sites and by going back and watching videos. 
+I used flexbox, box-sizing and the techniques to do the form layout. 
+I tried to insert a video instead of the imagen but I didnt really got it to work. 

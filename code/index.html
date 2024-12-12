@@ -1,17 +1,62 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Business Site</title>
-    <!-- Don't forget to link the CSS file here! -->
-  </head>
-  <body>
-    <h1>Business name 🌻</h1>
 
-    <!-- Video or image as a header is cool :) -->
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Project 2: The Business Site</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
 
-    <!-- Signup form -->
+<body>
+  <header>
+    <p class="centered-font">DERMA S</p>
+    <h1>ESTHETIC SKIN TREATMENTS</h1>
 
-  </body>
-</html>
+    <!-- Here starts the hero -->
+
+    <img class="hero-images" src="images/pexels-gabby-k-6621434 (2).jpg" alt="face-treatments">
+
+    <form action="http://httpbin.org/anything" method="POST">
+
+      <h2>Sign up for newsletter</h2>
+      <fieldset>
+        <label>
+          <span>Name</span>
+          <input type="text" name="name" placeholder="Anna Andersson" required />
+        </label>
+
+        <label>
+          <span>Email</span>
+          <input type="text" Email="email" placeholder="anna.andersson@example.com" required />
+        </label>
+
+        <label>
+          <span>Address</span>
+          <input type="text" address="address" placeholder="Roslins väg 18" required />
+        </label>
+
+        <label>
+          <span>City</span>
+          <input type="text" city="city" placeholder="Malmo" required />
+        </label>
+
+        <label>
+          <span>Postal Code</span>
+          <input type="text" postalcode="postalcode" placeholder="217 42" required />
+        </label>
+
+        <label>
+          <span>Country</span>
+          <select name="country">
+            <option value="SE">Sweden</option>
+            <option value="NO">Norway</option>
+            <option value="DK">Denmark</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <button type="submit">Register</button>
+
+    </form>
+  </header>
+</body>
